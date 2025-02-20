@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(179, 142, 230);
+    font-family: Times New Roman, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.btn {
+    background-color:rgb(97, 52, 144);
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 90vh;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+    font-family: Times New Roman, sans-serif;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn:focus {
+    outline: none;
+}
