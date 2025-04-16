@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #95D4E8;
+    font-family: "Times New Roman", Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+div {
+    position: absolute;
+    bottom: 20px;
+    background: #070F18;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+input {
+  width: 50px;
+  padding 5px;
+  font-size: 20px;
+  background-color: #95D4E8;
+  border: none;
+  margin-left: 5px;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
